@@ -1,0 +1,36 @@
+2025-12-30 12:13:20,474 - INFO - Processando doc1.pdf
+2025-12-30 12:13:20,486 - INFO - Processando doc2.pdf
+2025-12-30 12:13:21,041 - INFO - Processamento finalizado
+2025-12-30 12:17:21,082 - INFO - Início do processamento
+2025-12-30 12:17:21,083 - INFO - Processando arquivo: doc1.pdf
+2025-12-30 12:17:21,102 - INFO - Processando arquivo: doc2.pdf
+2025-12-30 12:17:21,997 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:17:23,266 - INFO - Processamento finalizado
+2025-12-30 12:19:16,027 - INFO - Início do processamento
+2025-12-30 12:19:16,027 - INFO - Processando arquivo: doc1.pdf
+2025-12-30 12:19:16,036 - INFO - Processando arquivo: doc2.pdf
+2025-12-30 12:19:16,360 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:19:16,500 - INFO - Processamento finalizado
+2025-12-30 12:22:09,637 - INFO - Início do processamento
+2025-12-30 12:22:09,637 - INFO - Processando arquivo: doc1.pdf
+2025-12-30 12:22:09,644 - INFO - Processando arquivo: doc2.pdf
+2025-12-30 12:22:09,991 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:22:10,146 - INFO - Processamento finalizado
+2025-12-30 12:36:57,355 - INFO - Início do processamento
+2025-12-30 12:36:57,356 - INFO - Processando arquivo: alphanorte.pdf
+2025-12-30 12:36:57,367 - INFO - Processando arquivo: betaverde.pdf
+2025-12-30 12:36:57,376 - INFO - Processando arquivo: gamazul.pdf
+2025-12-30 12:36:57,778 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:36:58,042 - INFO - Processamento finalizado
+2025-12-30 12:37:40,069 - INFO - Início do processamento
+2025-12-30 12:37:40,088 - INFO - Processando arquivo: alphanorte.pdf
+2025-12-30 12:37:40,104 - INFO - Processando arquivo: betaverde.pdf
+2025-12-30 12:37:40,130 - INFO - Processando arquivo: gamazul.pdf
+2025-12-30 12:37:40,861 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:37:41,139 - INFO - Processamento finalizado
+2025-12-30 12:38:55,887 - INFO - Início do processamento
+2025-12-30 12:38:55,887 - INFO - Processando arquivo: alphanorte.pdf
+2025-12-30 12:38:55,897 - INFO - Processando arquivo: betaverde.pdf
+2025-12-30 12:38:55,905 - INFO - Processando arquivo: gamazul.pdf
+2025-12-30 12:38:56,250 - INFO - Arquivo Excel gerado com sucesso
+2025-12-30 12:38:56,377 - INFO - Processamento finalizado
