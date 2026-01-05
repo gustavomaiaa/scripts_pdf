@@ -5,6 +5,7 @@ from src.leitor_pdf import ler_pdf_texto, ler_pdf_ocr
 from src.extrator import extrair_dados
 from src.utils import validar_dados
 from src.exportador import exportar_excel
+from datetime import datetime
 
 
 # ===============================
@@ -24,8 +25,8 @@ logging.basicConfig(
 # ===============================
 PASTA_PDFS = "pdfs_entrada"
 PASTA_OUTPUT = "output"
-ARQUIVO_EXCEL = os.path.join(PASTA_OUTPUT, "resultado.xlsx")
-
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+ARQUIVO_EXCEL = os.path.join(PASTA_OUTPUT, f"resultado_{timestamp}.xlsx")
 os.makedirs(PASTA_OUTPUT, exist_ok=True)
 
 
@@ -42,28 +43,29 @@ for arquivo in os.listdir(PASTA_PDFS):
         logging.info(f"Processando arquivo: {arquivo}")
 
         try:
-            # 1) Tenta ler como PDF texto
+            # 1) Lê PDF como texto
             texto = ler_pdf_texto(caminho_pdf)
 
-            # 2) Se falhar, usa OCR
             if not texto:
-                logging.info(f"OCR acionado para: {arquivo}")
-                texto = ler_pdf_ocr(caminho_pdf)
+                logging.warning(f"Texto vazio em {arquivo}")
+                continue
 
-            # 3) Extrai dados
-            dados = extrair_dados(texto)
+            # 2) Extrai dados (ASSINATURA CORRETA)
+            dados = extrair_dados(texto, arquivo)
+            print("DEBUG:", dados)
 
-            # 4) Valida e padroniza
+            # 3) Validação mínima (CAMPO-CHAVE)
+            if not dados or not dados.get("Municipio"):
+                logging.warning(f"Dados inválidos em {arquivo}")
+                continue
+
+            # 4) Validação complementar (opcional)
             dados = validar_dados(dados)
-
-            # 5) Adiciona nome do arquivo
-            dados["Arquivo"] = arquivo
 
             resultados.append(dados)
 
         except Exception as erro:
             logging.error(f"Erro ao processar {arquivo}: {erro}")
-
 
 # ===============================
 # EXPORTAÇÃO E ABERTURA DO EXCEL

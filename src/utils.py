@@ -1,36 +1,48 @@
-from datetime import datetime
+import unicodedata
 
-def validar_dados(dados):
-    # Município
-    if not dados["Municipio"]:
-        dados["Municipio"] = "NÃO IDENTIFICADO"
 
-    # Estado
-    if not dados["Estado"]:
-        dados["Estado"] = "NA"
+def normalizar_texto(texto: str) -> str:
+    """
+    Remove acentos, normaliza espaços e padroniza o texto
+    """
+    if not texto:
+        return ""
 
-    # Data
-    try:
-        datetime.strptime(dados["Data"], "%d/%m/%Y")
-    except:
-        dados["Data"] = None
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    texto = texto.replace("\r", "\n")
 
-    # Orçamento
-    try:
-        dados["Orcamento"] = float(
-            dados["Orcamento"]
-            .replace(".", "")
-            .replace(",", ".")
-        )
-    except:
-        dados["Orcamento"] = 0.0
+    # remove espaços duplicados
+    while "  " in texto:
+        texto = texto.replace("  ", " ")
 
-    # Prefeito
-    if not dados["Prefeito"]:
-        dados["Prefeito"] = "NÃO INFORMADO"
+    return texto.strip()
 
-    # Secretário Financeiro
-    if not dados["Secretario_Financeiro"]:
-        dados["Secretario_Financeiro"] = "NÃO INFORMADO"
 
-    return dados
+def validar_dados(dados: dict) -> dict:
+    """
+    Valida e padroniza os dados extraídos
+    """
+    if not dados:
+        return dados
+
+    dados_validados = {}
+
+    for chave, valor in dados.items():
+
+        # 🔹 Orçamento: mantém float válido
+        if chave == "Orcamento":
+            if isinstance(valor, (int, float)):
+                dados_validados[chave] = float(valor)
+            else:
+                dados_validados[chave] = None
+            continue
+
+        # 🔹 Campos de texto
+        if isinstance(valor, str):
+            valor = valor.strip()
+            dados_validados[chave] = valor if valor else None
+        else:
+            dados_validados[chave] = valor
+
+    return dados_validados

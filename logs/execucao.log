@@ -34,3 +34,88 @@
 2025-12-30 12:38:55,905 - INFO - Processando arquivo: gamazul.pdf
 2025-12-30 12:38:56,250 - INFO - Arquivo Excel gerado com sucesso
 2025-12-30 12:38:56,377 - INFO - Processamento finalizado
+2026-01-04 11:36:34,683 - INFO - Início do processamento
+2026-01-04 11:36:34,684 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-04 11:36:34,696 - INFO - Processando arquivo: betaverde.pdf
+2026-01-04 11:36:34,706 - INFO - Processando arquivo: gamazul.pdf
+2026-01-04 11:36:34,814 - INFO - Arquivo Excel gerado com sucesso
+2026-01-04 11:36:35,053 - INFO - Processamento finalizado
+2026-01-05 10:26:09,079 - INFO - Início do processamento
+2026-01-05 10:26:09,079 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:26:09,117 - ERROR - Erro ao processar alphanorte.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:26:09,117 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:26:09,146 - ERROR - Erro ao processar betaverde.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:26:09,146 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:26:09,167 - ERROR - Erro ao processar gamazul.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:26:09,167 - WARNING - Nenhum dado foi extraído
+2026-01-05 10:26:09,167 - INFO - Processamento finalizado
+2026-01-05 10:33:54,024 - INFO - Início do processamento
+2026-01-05 10:33:54,025 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:33:54,036 - ERROR - Erro ao processar alphanorte.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:33:54,036 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:33:54,049 - ERROR - Erro ao processar betaverde.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:33:54,049 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:33:54,065 - ERROR - Erro ao processar gamazul.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:33:54,066 - WARNING - Nenhum dado foi extraído
+2026-01-05 10:33:54,066 - INFO - Processamento finalizado
+2026-01-05 10:37:08,908 - INFO - Início do processamento
+2026-01-05 10:37:08,908 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:37:08,919 - ERROR - Erro ao processar alphanorte.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:37:08,920 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:37:08,930 - ERROR - Erro ao processar betaverde.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:37:08,930 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:37:08,941 - ERROR - Erro ao processar gamazul.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:37:08,941 - WARNING - Nenhum dado foi extraído
+2026-01-05 10:37:08,941 - INFO - Processamento finalizado
+2026-01-05 10:42:58,889 - INFO - Início do processamento
+2026-01-05 10:42:58,890 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:42:58,901 - ERROR - Erro ao processar alphanorte.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:42:58,901 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:42:58,910 - ERROR - Erro ao processar betaverde.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:42:58,910 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:42:58,922 - ERROR - Erro ao processar gamazul.pdf: extrair_dados() missing 1 required positional argument: 'nome_arquivo'
+2026-01-05 10:42:58,922 - WARNING - Nenhum dado foi extraído
+2026-01-05 10:42:58,922 - INFO - Processamento finalizado
+2026-01-05 10:46:12,031 - INFO - Início do processamento
+2026-01-05 10:46:12,031 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:46:12,044 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:46:12,053 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:46:12,157 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 10:46:12,652 - INFO - Processamento finalizado
+2026-01-05 10:48:49,303 - INFO - Início do processamento
+2026-01-05 10:48:49,304 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:48:49,318 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:48:49,328 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:51:21,289 - INFO - Início do processamento
+2026-01-05 10:51:21,290 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 10:51:21,306 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 10:51:21,318 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 10:51:21,392 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 10:51:21,608 - INFO - Processamento finalizado
+2026-01-05 11:02:10,989 - INFO - Início do processamento
+2026-01-05 11:02:10,990 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 11:02:11,002 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 11:02:11,011 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 11:02:11,109 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 11:02:11,362 - INFO - Processamento finalizado
+2026-01-05 11:02:55,549 - INFO - Início do processamento
+2026-01-05 11:02:55,550 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 11:02:55,563 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 11:02:55,574 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 11:02:55,733 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 11:02:55,938 - INFO - Processamento finalizado
+2026-01-05 11:04:23,937 - INFO - Início do processamento
+2026-01-05 11:04:23,938 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 11:04:23,952 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 11:04:23,962 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 11:04:24,043 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 11:04:24,202 - INFO - Processamento finalizado
+2026-01-05 11:08:15,385 - INFO - Início do processamento
+2026-01-05 11:08:15,385 - INFO - Processando arquivo: alphanorte.pdf
+2026-01-05 11:08:15,398 - INFO - Processando arquivo: betaverde.pdf
+2026-01-05 11:08:15,408 - INFO - Processando arquivo: deltaverde.pdf
+2026-01-05 11:08:15,420 - INFO - Processando arquivo: epsilonsul.pdf
+2026-01-05 11:08:15,432 - INFO - Processando arquivo: gamazul.pdf
+2026-01-05 11:08:15,443 - INFO - Processando arquivo: zetacentral.pdf
+2026-01-05 11:08:15,570 - INFO - Arquivo Excel gerado com sucesso
+2026-01-05 11:08:15,828 - INFO - Processamento finalizado
